@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="/assets/img/qts.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">    
+    <title>Imposto de Renda - Resultado</title>
+</head>
+<body>
+    <div class="container">
+        <div class="buttons">
+            <h2 id="titulo" >Resultado do seu Imposto de Renda</h2>
+                <form action="resultado.html" method="get">
+                    <label for="">Nome:</label>
+                    <input type="text" name="nome" id="nome" readonly>
+
+                    <label for="">CPF:</label>
+                    <input type="text" name="cpf" id="cpf" readonly>
+
+                    <label for="">Salario:</label>
+                    <input type="text" name="salario" id="salario" readonly>
+
+                    <label for="">Aliquota:</label>
+                    <input type="text" name="aliquota" id="aliquota" readonly>
+
+                    <label for="">Imposto de renda:</label>
+                    <input type="text" name="imposto" id="imposto" readonly>
+
+                    <button type="submit"><a href="index.html">Voltar para Formulario</a>
+                </form> 
+        </div>
+    </div>
+    
+    <script type="module" src="/assets/js/index.js" defer></script>
+</body>
+</html>
